@@ -1,4 +1,4 @@
 # Pharm
-```csharp
+```cshar
 Console.WriteLine("Hello World");
 ```
