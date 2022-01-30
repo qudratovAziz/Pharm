@@ -10,7 +10,8 @@ namespace Apteka
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("sdca");
+            Console.WriteLine("Hello World");
+            Console.WriteLine("yana bitta Hello World");
         }
     }
 }
