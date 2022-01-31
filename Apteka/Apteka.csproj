@@ -43,11 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\UserRole.cs" />
+    <Compile Include="IRepositories\IUserRepository.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Service\Constants.cs" />
+    <Compile Include="Service\MethodService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Database\Remedies\" />
+    <Folder Include="Database\Users\" />
+    <Folder Include="Exstensions\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
